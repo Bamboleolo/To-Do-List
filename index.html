@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        li {
+            display: flex;
+            height:25px;
+
+            list-style-type: none;
+        }
+        ul {
+            margin-left: 0;
+            padding-left: 0;
+        }
+        input[type = "checkbox"] {
+            margin-left: 50px;
+        }
+        #input-task{
+            margin-left: 50px;
+            border: 0;
+            border-bottom: 3px solid #bd3ea7;
+            width: 400px;
+            height: 25px;
+            outline: none;
+        }
+        #add-task-button{
+            font-size: small;
+            font-weight: bolder;
+            color: white;
+            background-color: #af2996;
+            height: 34px;
+            width: 85px;
+        }
+        .task{
+            margin-left: 5px;
+            width: 451px;
+            height: 20px;
+        }
+        .delete-btn {
+            font-family: inherit;
+            height: 20px;
+            display: inline-block;
+            width: 21px;
+            border-radius: 50%;
+            background-color: red;
+            color: white;
+            padding-left: 4px
+        }
+    </style>
+</head>
+<body>
+
+
+<input id="input-task">
+<button id="add-task-button">ADD TASK</button>
+
+<ul id="task-list">
+</ul>
+
+<script src="script.js"></script>
+</body>
+</html>

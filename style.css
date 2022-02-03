@@ -1,0 +1,10 @@
+input[type=checkbox] + span {
+    color: #ccc;
+    font-style: italic;
+}
+
+input[type=checkbox]:checked + span {
+    color: #f00;
+    text-decoration: line-through;
+    font-style: normal;
+}
